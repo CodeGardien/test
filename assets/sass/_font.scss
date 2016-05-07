@@ -1,0 +1,23 @@
+/* -----------------------------------
+	all font 
+----------------------------------- */
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MYRIADPROREGULAR.eot');
+	src: local('MYRIADPROREGULAR'), url('../fonts/MYRIADPROREGULAR.woff') format('woff'), url('../fonts/MYRIADPROREGULAR.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratRegular.eot');
+	src: local('MontserratRegular'), url('../fonts/MontserratRegular.woff') format('woff'), url('../fonts/MontserratRegular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'ProximaNova';
+	src: url('../fonts/proximanovalight.eot');
+	src: local('proximanovalight'), url('../fonts/proximanovalight.woff') format('woff'), url('../fonts/proximanovalight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/LatoLig.eot');
+	src: local('LatoLig'), url('../fonts/LatoLig.woff') format('woff'), url('../fonts/LatoLig.ttf') format('truetype');
+}

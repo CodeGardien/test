@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- ++++++++++++++++++++++++++++++++++++++++
+            Meta Data
+		+++++++++++++++++++++++++++++++++++++++++++++ -->
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Test Project</title>
+		
+		<!-- ++++++++++++++++++++++++++++++++++++++++
+            Mobile Specific Metas
+		+++++++++++++++++++++++++++++++++++++++++++++ -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- ++++++++++++++++++++++++++++++++++++++++
+            style and icons
+		+++++++++++++++++++++++++++++++++++++++++++++ -->
+		<link rel='stylesheet' href='assets/css/animate.min.css'>
+		<link rel="stylesheet" href="assets/css/main.css">
+		
+		<!--[if lt IE 9]>
+			<script src="script/html5shiv.min.js"></script>
+			<script src="script/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<h2>Sign up</h2>
+			<p class="hidden-xs">Desktop view.</p>
+			<p class="visible-xs">Mobile view.</p>
+		</header>
+
+		
+		<!-- ++++++++++++++++++++++++++++++++++++++++
+            Sign up form
+		+++++++++++++++++++++++++++++++++++++++++++++ -->
+		<div class="signup">
+			<form id="form" class="panel-group form-horizontal" data-parsley-validate>
+				<div class="panel-heading">
+					<a href="#" class="wow tada" data-wow-duration="1000ms" data-wow-delay="600ms"><img src="./assets/image/logo.svg" alt="" /></a>
+					<div class="">
+						<h3>Create new account</h3>
+						<p>Enter your credentials bellow</p>
+					</div>
+				</div>
+				<div class="panel-body">
+					<div class="container">
+						<div class="row">
+							<div class="form-group pullleft col-sm-7 col-xs-12">
+								<label for="name" class="control-label">Full name</label>
+								<div>
+									<input type="text" id="name" name="name" placeholder="Name and surname" class="form-control" data-parsley-errors-messages-disabled required>
+								</div>
+							</div>
+							<div class="form-group pullright col-sm-4 col-xs-12">
+								<label for="username" class="control-label">Username</label>
+								<div>
+									<input type="text" id="username" name="username" placeholder="Username" class="form-control" data-parsley-errors-messages-disabled required>
+								</div>
+							</div>
+							<div class="form-group col-sm-12 col-xs-12 has-error">
+								<label for="email" class="control-label">Email address</label>
+								<div>
+									<input type="email" id="email" data-type="email" name="email" placeholder="Email address" class="form-control" data-parsley-errors-messages-disabled required>
+								</div>
+							</div>
+							<div class="form-group pullleft col-sm-7 col-xs-12">
+								<label for="country" class="control-label">Country</label>
+								<div>
+									<input type="text" id="country" name="country" placeholder="Country" class="form-control" data-parsley-errors-messages-disabled required>
+								</div>
+							</div>
+							<div class="form-group col-sm-4 pullright col-xs-12">
+								<label for="city" class="control-label">City</label>
+								<div>
+									<input type="text" id="city" name="city" placeholder="City" class="form-control" data-parsley-errors-messages-disabled required>
+								</div>
+							</div>
+							<div class="form-group col-sm-12 col-xs-12">
+								<label for="password" class="control-label">Password</label>
+								<div class="pass">
+									<input type="password" id="password" name="password" placeholder="Password" class="form-control enter" data-parsley-errors-messages-disabled required>
+									<input type="password" id="repeat" name="repeat" placeholder="Repeat Password" class="form-control reenter" data-parsley-errors-messages-disabled required>
+								</div>
+							</div>
+							<div class="form-group col-sm-12 col-xs-12 submit">
+								<label class="checkbox-inline col-sm-7">
+									<input type="checkbox" id="check" name="check" value="accept" data-parsley-errors-messages-disabled required>
+									<span>I accept the <a href="#">Terms & Conditions</a></span>
+								</label>
+								<div class="col-sm-4">
+									<button type="submit" class="btn btn-success btn-block wow wobble" value="submit"  data-wow-duration="1000ms" data-wow-delay="600ms">Create account</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="orsignin visible-xs">
+					<p>Have account already? <a href="#">Sign in</a></p>
+				</div>
+			</form>
+		</div>
+		
+		<div class="orsignin hidden-xs">
+			<p>Have account already? <a href="#">Sign in</a></p>
+		</div>
+		
+		
+		<!-- ++++++++++++++++++++++++++++++++++++++++
+            style and icons
+		+++++++++++++++++++++++++++++++++++++++++++++ -->
+		<script src="assets/js/jquery2.min.js"></script>
+		<script src="assets/js/parsley.min.js"></script>
+		<script src="assets/js/retina.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>
